@@ -10,6 +10,7 @@ npm run format:check
 npm run lint
 npm test
 npm run build
+npm run start
 ```
 
 También incluye un paso simple de seguridad:
@@ -35,7 +36,11 @@ npm run format:check
 npm run lint
 npm test
 npm run build
+npm run start
 ```
+
+`npm run build` compila el proyecto en `dist/` y `npm run start` ejecuta
+`dist/src/index.js`.
 
 ## Ejercicio sugerido
 
